@@ -8,6 +8,7 @@ from datetime import datetime
 import numpy as np
 from transformers import AutoImageProcessor, AutoModelForImageClassification, pipeline
 from PIL import Image
+import torch
 
 # Set page config for better layout
 st.set_page_config(layout="wide", page_title="DeepGuard AI", page_icon="🛡️")
